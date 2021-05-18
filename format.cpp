@@ -14,8 +14,8 @@ int main() {
   MyFmt(cout, 15, 'x');
   cout << MyFmt(1234567890, 'y');
 
-  uint64_t ea =0xDEADBEEFDEADBEEF;
-  uint64_t aa =0xEFDEADBEEF;
+  uint64_t ea = 0xDEADBEEFDEADBEEF;
+  uint64_t aa = 0xEFDEADBEEF;
 
   EaFmt(cout, uint32_t(ea >> 32), uint32_t(ea));
   cout << '\n';
